@@ -43,9 +43,15 @@ h4 {
 }
 
 a {
-    text-decoration:none;
+    
+    text-decoration:underline;
+    color: #000000;
 }
 
+a:hover {
+
+   color: #E6B298; 
+}
 .button {
     width:122px;
     height:12px;
