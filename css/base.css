@@ -1,8 +1,13 @@
 body {
-    background-color:#383536;
-    /*I'm currently working on developing a background image that I am making myself, likely won't be completed in time for the first submission since graphic design isn't really my strong suit.*/
+    background-color:#ffffff;
     font-family: "Arial", Helvetica, sans-serif;
     font-size:16px;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 h1 {
@@ -15,12 +20,13 @@ h1 {
 }
 
 h2 {
-    color: #000000;
-    font-family:"Courier New", Courier, monospace;
-    font-size:20px;
-    padding:3px;
-    margin-top: 0px;
-    margin-left: 300px;
+    color: #EED54F;
+    font-family:"Arial", Helvetica, sans-serif;
+    font-size:10px;
+    padding:0px;
+    text-align:center;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 h3 {
@@ -63,11 +69,11 @@ a:hover {
 .button {
     width:122px;
     height:12px;
-    padding:5px;
-    margin:2px;
-    margin-bottom:10px;
+    padding:5.3px;
+    margin:1px;
+    margin-bottom:0px;
     background-color:#ffffff;
-    font-family:Courier New, "Courier", monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
     font-weight: bold;
     text-align:center;
@@ -78,27 +84,26 @@ a:hover {
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
     display:inline-block;
-  text-decoration:bold;
+    border-style:dotted;
+    border-width: 1px;
+    border-color: #E0E0E0;
 }
 
 .button:hover {
-    background-image: url('img/buttonbg.png');
-    background-repeat:no-repeat;
-    /*Background image upon hover is not working for whatever reason but leaving the code hasn't changed anything. The image is in the img folder and the name and .png are both correct. The dimensions of the image match those of the link boxes perfectly as well.*/
-    background-color:#383536 ;
-    color:#E6B298 ;
+    background-color:#EED54F;
+    color:#ffffff;
 }
 
 /*My intention is to implement a code that keeps the navigation button of the current page you're on highlighted, however I am having difficulty figuring out how to actually do that, online tutorials only further confused me.*/
 
 article {
-    width:700px;
+    max-width:700px;
     height:900;
     padding:30px;
     padding-top: 20px;
-    border: 0;
-    margin-left:200px;
-    margin-right:px;
+    border:0;
+    margin-left:auto;
+    margin-right:auto;
     text-align:left;
     background-color: #ffffff;
     
@@ -114,3 +119,4 @@ article {
     padding-top: 20px;
     padding-right: 20px;
 }
+    
