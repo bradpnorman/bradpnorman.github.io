@@ -4,6 +4,22 @@ body {
     font-size:16px;
 }
 
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(2.8deg);
+     -moz-transform: rotate(2.8deg);
+       -o-transform: rotate(2.8deg);
+      -ms-transform: rotate(2.8deg);
+          transform: rotate(2.8deg);
+}
+
 img.displayed {
     display: block;
     margin-left: auto;
@@ -20,20 +36,30 @@ h1 {
     margin-left: auto;
 }
 
+h2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    padding:1px;
+    margin-top: 0px;
+    margin-left: -3px;
+    margin-bottom: -3px;
+}
+
 h3 {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
     padding:3px;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: -3px;
 }
 
 h4 {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    padding:3px;
+    padding:0px;
     margin-top: -20px;
     margin-left: 0px;
     margin-bottom: -10px;
@@ -63,7 +89,7 @@ a {
 
 a:hover {
 
-   color: #E6B298; 
+   color: #EED54F; 
 }
 .button {
     width:122px;
@@ -92,8 +118,6 @@ a:hover {
     background-color:#EED54F;
     color:#ffffff;
 }
-
-/*My intention is to implement a code that keeps the navigation button of the current page you're on highlighted, however I am having difficulty figuring out how to actually do that, online tutorials only further confused me.*/
 
 article {
     max-width:700px;
